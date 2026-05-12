@@ -68,3 +68,8 @@ Used to fill enclosed areas with selected colors.
 ```bash
 g++ paint.cpp -o paint -lGL -lGLU -lglut
 ./paint
+```
+### Mac OS
+``
+g++ paint.cpp -framework OpenGL -framework GLUT
+./paint
